@@ -1,0 +1,74 @@
+body,html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.red{
+  color: red;
+}
+.m_t_15{
+  margin-top: 15px;
+}
+.m_t_30{
+  margin-top: 30px;
+}
+/* 登录部分 */
+.login_out{
+  width: 300px;
+  height: 200px;
+  position: fixed;
+  top: 50%;
+  bottom: 50%;
+  left: 60%;
+  right: 40%;
+  margin: auto;
+}
+.ant-input-password{
+  margin:30px 0;
+}
+/* 首页 */
+.home_work{
+    width: 100%;
+    height: 20px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    margin: 20px 0;
+    font-weight: 600;
+    border-right: 1px solid gray;
+}
+.user_message{
+  color: #fff;
+  float: right;
+}
+.user_message span{
+  margin: 0 20px;
+  cursor: pointer;
+}
+/* 职员添加 */
+.staff_add {
+  padding: 15px 15px 15px 50px;
+}
+.staff_add .add_out{
+  width: 100%;
+  height: 44px;
+  line-height: 44px; 
+  overflow: hidden;
+}
+.staff_add .add_out strong{
+  width: 100px;
+  float: left;
+}
+.add_out .ant-select,.add_out .ant-input,.add_out .ant-picker{
+  margin:0 15px;
+}
+.staff_add button{
+  margin-top: 30px
+}
+
+body :global(.ant-table-wrapper) {
+  background: red;
+  color:red;
+}
